@@ -12,6 +12,7 @@
 ### PWM_App
  - [in this app i used Hardware PWM " PWM0 " module physical pin number "18,12" these two pins are wired to same PWM module.](PWM/Led_Control_PWM_Hardware.cpp)
  - [i used as well gpiod  lib to implement PWM concept on gpio pins. physical pin number "16" on board.](PWM/Led_Control_gpio.cpp)
+ - [i wrote service that start app at boot of Linux](PWM/pwm-led.service)
 
 ### [Qt integration with RPI]
 -

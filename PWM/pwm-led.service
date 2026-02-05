@@ -1,0 +1,15 @@
+[Unit]
+Description=c++ PWM Lec_Control
+After=network.target
+
+[Service]
+# Replace /home/pi/with the actual path to your folder
+ExecStart=/home/mahmoud/Desktop/Embedded-Linux-Projects/PWM/led_control
+WorkingDirectory=/home/mahmoud/Desktop/Embedded-Linux-Projects/PWM
+StandardOutput=inherit
+StandardError=inherit
+Restart=always
+User=mahmoud
+
+[Install]
+WantedBy=multi-user.target
