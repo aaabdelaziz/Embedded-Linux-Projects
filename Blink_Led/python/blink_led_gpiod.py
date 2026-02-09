@@ -5,6 +5,7 @@ from gpiod.line import Direction, Value
 # Define our chip and pin (offset)
 CHIP_PATH = "/dev/gpiochip0"
 LINE_OFFSET = 23
+
 # 1. Open the chip and request the line as output
 # The 'with' statement automatically closes the chip when finished
 with gpiod.request_lines(
