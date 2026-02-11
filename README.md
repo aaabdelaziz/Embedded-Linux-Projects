@@ -17,10 +17,10 @@
 
 - [Overview](#overview)
 - [Projects](#projects)
-  - [ Blink LED](#-blink-led)
-  - [ PWM Control](#️-pwm-control)
-  - [ UART Communication](#-uart-communication)
-  - [ Qt Integration](#️-qt-integration)
+  - [ Blink LED](#1-blink-led)
+  - [ PWM Control](#2-pwm-control)
+  - [ UART Communication](#3-uart-communication)
+  - [ Qt Integration](#4-qt-integration)
 - [Hardware Requirements](#hardware-requirements)
 - [Getting Started](#getting-started)
 
@@ -67,27 +67,19 @@ Three examples of serial communication implementation:
 - **Basic UART**: Simple loopback and data transmission test
 - **Threaded UART**: Multi-threaded TX/RX implementation for full-duplex communication
 - **LED Control**: Control an LED via serial commands (`ON`, `OFF`, `TOGGLE`)
+  **Companion Application:**
+
+A Qt6-based serial terminal application is available for sending commands: [Serial App (Qt6 Framework)](https://github.com/MahmoudMohamedAli/Serial_App_QT/tree/main/Version1)
 
 📁 [**View Project Details →**](UART_APP/README.md)
 
-**Companion Application:**
-
-A Qt6-based serial terminal application is available for sending commands:
-
-🔗 [Serial App (Qt6 Framework)](https://github.com/MahmoudMohamedAli/Serial_App_QT/tree/main/Version1)
-
-**Demo:**
-| LED Control via UART |
-|:--------------------:|
-| ![UART Demo](UART_APP/1.png) |
-
 ---
 
-### Qt Integration
+### 4. Qt Integration
 
 > Integrating Qt framework with Raspberry Pi for GUI applications.
 
-🚧 **Coming Soon** - Stay tuned for Qt-based embedded GUI projects!
+**Coming Soon !** - Stay tuned for Qt-based embedded GUI projects!
 
 ---
 
