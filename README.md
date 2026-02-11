@@ -48,17 +48,13 @@ LED on GPIO 23 toggles every 500ms using C++ (`libgpiod`), Python, or direct sys
 
 > Hardware and software PWM implementations for LED brightness control.
 
-| File                                                               | Description                                  |
-| ------------------------------------------------------------------ | -------------------------------------------- |
-| [`Led_Control_PWM_Hardware.cpp`](PWM/Led_Control_PWM_Hardware.cpp) | Hardware PWM using PWM0 module (pins 18, 12) |
-| [`Led_Control_gpio.cpp`](PWM/Led_Control_gpio.cpp)                 | Software PWM using `libgpiod` (pin 16)       |
-| [`pwm-led.service`](PWM/pwm-led.service)                           | Systemd service for auto-start at boot       |
+Control LED brightness using hardware PWM (sysfs) or software PWM (libgpiod).
 
-**Features:**
-
-- **Hardware PWM**: Uses the Raspberry Pi's dedicated PWM0 module
+- **Hardware PWM**: Uses the Raspberry Pi's dedicated PWM0 module (sysfs)
 - **Software PWM**: GPIO-based PWM implementation with `libgpiod`
 - **Boot Service**: Includes a systemd service file for automatic startup
+
+📁 [**View Project Details →**](PWM/README.md)
 
 ---
 
@@ -91,7 +87,7 @@ A Qt6-based serial terminal application is available for sending commands:
 
 ---
 
-### 🖥️ Qt Integration
+### Qt Integration
 
 > Integrating Qt framework with Raspberry Pi for GUI applications.
 
