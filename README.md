@@ -62,17 +62,13 @@ Control LED brightness using hardware PWM (sysfs) or software PWM (libgpiod).
 
 > Serial communication applications for Raspberry Pi.
 
-| File                                                                | Description                                  |
-| ------------------------------------------------------------------- | -------------------------------------------- |
-| [`uart_comm.cpp`](UART_APP/uart_comm.cpp)                           | Basic UART communication                     |
-| [`uart_TXWorker_RXWorker.cpp`](UART_APP/uart_TXWorker_RXWorker.cpp) | Multi-threaded UART (separate TX/RX threads) |
-| [`Control_Led_Via_UART.cpp`](UART_APP/Control_Led_Via_UART.cpp)     | LED control via UART commands                |
+Three examples of serial communication implementation:
 
-**Features:**
+- **Basic UART**: Simple loopback and data transmission test
+- **Threaded UART**: Multi-threaded TX/RX implementation for full-duplex communication
+- **LED Control**: Control an LED via serial commands (`ON`, `OFF`, `TOGGLE`)
 
-- Basic serial communication with Raspberry Pi
-- Multi-threaded design with dedicated TX and RX workers
-- Remote LED control commands: `ON` | `OFF` | `TOGGLE`
+📁 [**View Project Details →**](UART_APP/README.md)
 
 **Companion Application:**
 
