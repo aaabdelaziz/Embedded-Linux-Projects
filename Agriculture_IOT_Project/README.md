@@ -182,7 +182,7 @@ agrosense/<device_id>/ota/trigger  → OTA firmware trigger (Phase 2)
 
 ## Documentation
 
-Full documentation lives in the [GitHub Wiki](../../wiki/AgroSense-Edge-—-IOT-Agriculture-Yocto-based-Project):
+Full documentation lives in the [Wiki Page](https://github.com/aaabdelaziz/Embedded-Linux-Projects/wiki/AgroSense-Edge-%E2%80%94-IOT-Agriculture-Yocto-based-Project):
 
 ---
 
